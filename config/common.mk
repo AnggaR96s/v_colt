@@ -48,7 +48,7 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
 PRODUCT_PACKAGES += \
     Terminal \
-    GboardGoPreb \
+    LatinIME \
     LiveWallpapers \
     LiveWallpapersPicker \
     Stk \
@@ -87,7 +87,11 @@ PRODUCT_COPY_FILES += \
 # Colt Packages
 PRODUCT_PACKAGES += \
     OmniStyle \
-    Lawnchair
+    Lawnchair \
+    GContacts \
+    GDeskClock \
+    GDialer \
+    GMessaging
 
 # Live Display
 PRODUCT_COPY_FILES += \
@@ -100,7 +104,8 @@ PRODUCT_COPY_FILES += \
      vendor/colt/prebuilt/common/etc/permissions/privapp-permissions-colt.xml:system/etc/permissions/privapp-permissions-colt.xml
 
  PRODUCT_PROPERTY_OVERRIDES += \
-     org.pixelexperience.weather.revision=2
+     org.pixelexperience.weather.revision=2 \
+     ro.opa.eligible_device=true
 
  PRODUCT_PACKAGES += \
      WeatherClient
@@ -138,12 +143,7 @@ PRODUCT_PACKAGES += \
 
 # Omni's PoorMan Themes
 PRODUCT_PACKAGES += \
-    DocumentsUITheme \
-    ContactsTheme \
-    MessagesTheme \
-    DialerTheme \
-    TelecommTheme \
-    GboardDarkTheme
+    DocumentsUITheme
 
 # QS header styles
 PRODUCT_PACKAGES += \
