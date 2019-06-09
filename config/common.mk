@@ -139,7 +139,12 @@ PRODUCT_PACKAGES += \
     QStileBadge \
     QStileBadgetwo \
     QStileSquircle \
-    QStileDiamond
+    QStileDiamond \
+    QStileNeonlike \
+    QStileOOS \
+    QStileTriangles \
+    QStileDivided \
+    QStileCosmos
 
 # Omni's PoorMan Themes
 PRODUCT_PACKAGES += \
