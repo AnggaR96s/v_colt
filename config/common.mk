@@ -110,10 +110,6 @@ PRODUCT_COPY_FILES += \
  PRODUCT_PACKAGES += \
      WeatherClient
 
-# SubstratumSignature Package
-PRODUCT_COPY_FILES += \
-     vendor/colt/prebuilt/common/priv-app/SubstratumSignature.apk:system/priv-app/SubstratumSignature/SubstratumSignature.apk
-
 # QS tile styles
 PRODUCT_PACKAGES += \
     QStileCircleTrim \
